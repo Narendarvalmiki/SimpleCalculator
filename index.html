@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <center>
+            <input style="border: 1px solid gold; padding: 10px;border-radius: 5px;" type="tel" id="firstbox" name="firstbox" placeholder="Enter First value"><br><br>
+            <input style="border: 1px solid gold;padding: 10px;border-radius: 5px;" type="tel" id="secondbox" name="secondbox" placeholder="Enter Second value"><br><br>
+            <button style="color: white; background-color: orange; border: none; padding: 13px;" onclick="AddNum()">+</button>
+            <button  style="color: white; background-color: blue; border: none; padding: 13px;" onclick="SubNum()">-</button>
+            <button style="color: white; background-color: green; border: none; padding: 13px;" onclick="MulNum()">*</button>
+            <button style="color: white; background-color:purple; border: none; padding: 13px;" onclick="DivNum()">/</button>
+            <button style="color: white; background-color: red; border: none; padding: 13px;" onclick="PowNum()">**</button>
+           <h2 id="res"></h2>
+          </center>
+    </div>
+  
+   
+
+   <script src="script.js"></script>
+</body>
+</html>
